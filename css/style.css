@@ -1898,6 +1898,7 @@ body {
 	font-size: 48px;
 	text-align: center;
 	color: #10233E;
+	margin-bottom: 50px;
 }
 @media only screen and (max-width: 576px) {
 	.faq__title {
@@ -1911,4 +1912,91 @@ body {
 
 .faq {
 	margin-top: 100px;
+}
+
+.about {
+	padding: 100px 0;
+}
+
+.about__title {
+	font-size: 48px;
+	line-height: 58px;
+	text-align: center;
+	color: #10233E;
+	margin-bottom: 50px;
+}
+
+.about__description {
+	font-weight: 300;
+	font-size: 16px;
+	line-height: 24px;
+	color: #10233E;
+}
+
+.about__block {
+	position: relative;
+	background: #FFFFFF;
+	box-shadow: 10px 15px 60px rgba(131, 131, 133, 0.25);
+	border-radius: 10px;
+	padding: 18px 83px 18px 40px;
+	min-height: 108px;
+	display: flex;
+	align-items: center;
+	margin: 25px 0;
+}
+
+.about__number {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+	color: #FFFFFF;
+	background: #7427E6;
+	padding: 15px;
+}
+
+.about__number {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	border-top-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.contacts {
+	background: #E9E9FD;
+}
+
+.contacts__title {
+	font-size: 48px;
+	line-height: 58px;
+	color: #10233E;
+	text-align: center;
+	padding: 50px 0;
+}
+
+.contact {
+	padding: 40px 0;
+	border: 1px solid #60738E;
+	min-height: 426px;
+}
+
+.contact__description {
+	font-size: 18px;
+	line-height: 27px;
+	color: #10233E;
+}
+
+.contacts__map {
+	width: 100%;
+}
+
+.footer {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 auto;
+	padding-top: 100px;
+	padding-bottom: 65px;
+	align-items: center;
+	max-width: 714px;
+	width: 100%;
 }
